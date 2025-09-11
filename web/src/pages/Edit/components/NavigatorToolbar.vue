@@ -104,7 +104,7 @@
             <span class="iconfont iconAIshengcheng"></span>
             {{ $t('navigatorToolbar.ai') }}
           </el-dropdown-item>
-          <el-dropdown-item command="client">
+          <!-- <el-dropdown-item command="client">
             <span class="iconfont iconxiazai"></span>
             {{ $t('navigatorToolbar.downloadClient') }}
           </el-dropdown-item>
@@ -115,12 +115,12 @@
           <el-dropdown-item command="site">
             <span class="iconfont iconwangzhan"></span>
             {{ $t('navigatorToolbar.site') }}
-          </el-dropdown-item>
-          <el-dropdown-item disabled
+          </el-dropdown-item> -->
+          <!-- <el-dropdown-item disabled
             >{{ $t('navigatorToolbar.current') }}v{{
               version
             }}</el-dropdown-item
-          >
+          > -->
         </el-dropdown-menu>
       </el-dropdown>
     </div>
